@@ -1,26 +1,3 @@
-# discord-ui
-
-Status: in development
-
-## TODO
-
-- [x] get theme variables (colours)
-- [ ] list all components
-- [ ] get css for each component
-
-## Theme Variables
-
-### Colours
-
-```css
-.discord-ui {
-    color: rgb(240, 71, 71);
-}
-```
-
-### Dark
-
-```css
 .theme-dark {
     --header-primary: #fff;
     --header-secondary: #b9bbbe;
@@ -67,11 +44,7 @@ Status: in development
     --deprecated-text-input-border-disabled: #202225;
     --deprecated-text-input-prefix: #dcddde;
 }
-```
 
-### Light
-
-```css
 .theme-light {
     --header-primary: #060607;
     --header-secondary: #4f5660;
@@ -118,33 +91,3 @@ Status: in development
     --deprecated-text-input-border-disabled: #dcddde;
     --deprecated-text-input-prefix: #b9bbbe;
 }
-```
-
-## Components
-
-### Interactions
-
-- Button
-- Chip
-- Input
-- Dropdown
-- Select
-
-### Navigation
-
-- Navbar
-- Sidebar
-- Toolbar
-
-### Layout
-
-- Scroller
-- Divider
-
-### Content
-
-- Mention
-- List
-- ListItem
-- Icon
-- Emoji
